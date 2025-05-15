@@ -1,6 +1,8 @@
 main.py
 
-import os import telebot import requests
+import os
+import telebot
+import requests
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN") bot = telebot.TeleBot(BOT_TOKEN)
 
